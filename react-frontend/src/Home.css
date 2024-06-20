@@ -1,0 +1,95 @@
+.home-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+  
+.App-header {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    display: flex; /* Method 1 */
+    justify-content: center; /* Method 1 (optional) */
+    align-items: center; /* Method 1 (optional) */
+    text-align: center; /* Method 2 */
+}
+  
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+  
+.navbar {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+  
+  .navbar li {
+    display: inline;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .project-description, .data-description, .data-visualization, .models-description, .performance {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  .visualization-images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .visualization-item {
+    text-align: center;
+  }
+  
+  .visualization-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    background: #f9f9f9;
+  }
+  
+  .visualization-item p {
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  ul {
+    list-style: disc inside;
+    margin-top: 10px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  

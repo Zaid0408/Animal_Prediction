@@ -1,0 +1,43 @@
+.layout {
+    font-family: Arial, sans-serif;
+  }
+  
+  .main-header {
+    background-color: #003060;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    
+  }
+  
+  .nav-bar {
+    background-color: #337ab7;
+    padding: 10px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    display: inline;
+  }
+  
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
